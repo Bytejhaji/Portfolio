@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shashwat Shandil | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+  <!-- Vanta.js Dependencies -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- EmailJS SDK -->
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <h1>Shashwat</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section" style="position: relative; overflow: hidden;">
+    <div id="vanta-bg" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; z-index: 0;"></div>
+    <div class="hero-content" style="position: relative; z-index: 1;">
+      <div class="hero-text">
+        <h2>Hi, I'm Shashwat Shandil</h2>
+        <p>Tech Enthusiast | Full-Stack Developer | Creative Problem Solver</p>
+        <p>Computer Science student passionate about AI/ML, building innovative solutions, and creating real-world impact through technology.</p>
+        <a href="#portfolio" class="cta-button">View Projects</a>
+      </div>
+      <div class="hero-img">
+        <img src="Assets/profile.jpg" alt="Shashwat Shandil" class="profile-photo" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="about-container">
+      <div class="about-text">
+        <h2><span class="highlight">About</span> <span class="highlight-alt">Me</span></h2>
+        <p>I'm Shashwat Shandil, a passionate and curious learner currently pursuing my B.Tech in Computer Science...</p>
+        <p>Whether it's developing smart applications or exploring emerging tech...</p>
+        <p>My journey in computer science has been fueled by curiosity...</p>
+      </div>
+      <div class="about-cards">
+        <div class="edu-card">
+          <div class="edu-icon">🎓</div>
+          <div>
+            <h3>Education</h3>
+            <p><strong>B.Tech in Computer Science (AI & ML)</strong></p>
+            <p class="university">COER University</p>
+            <p><i class="calendar">📅</i> Graduating in 2027</p>
+          </div>
+        </div>
+        <div class="info-cards">
+          <div class="info-card">
+            <h4 class="info-highlight">2027</h4>
+            <p>Graduation Year</p>
+          </div>
+          <div class="info-card">
+            <h4 class="info-highlight spec">AI & ML</h4>
+            <p>Specialization</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <h1>Experience</h1><br>
+    <div class="experience-container">
+      <div class="experience-card">
+        <h2>Hackathon Projects</h2>
+        <p>Led projects like <strong>COER Quiz</strong> & <strong>Carbon Footprint App</strong>.</p>
+      </div>
+      <div class="experience-card">
+        <h2>Collaboration</h2>
+        <p>Worked on <strong>open-source</strong> projects & <strong>freelance UI/UX designs</strong>.</p>
+      </div>
+      <div class="experience-card">
+        <h2>Tech Stack</h2>
+        <p>C++, Python, Java, HTML/CSS/JS, GitHub.</p>
+      </div>
+    </div><br>
+    <a href="assets/Shashwat_CV.pdf" download class="cta-button">Download CV</a>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+      <div class="skill"><i class="fas fa-code"></i> C++</div>
+      <div class="skill"><i class="fab fa-python"></i> Python</div>
+      <div class="skill"><i class="fab fa-java"></i> Java</div>
+      <div class="skill"><i class="fab fa-html5"></i> HTML</div>
+      <div class="skill"><i class="fab fa-css3-alt"></i> CSS</div>
+      <div class="skill"><i class="fab fa-js"></i> JavaScript</div>
+      <div class="skill"><i class="fab fa-git-alt"></i> Git</div>
+      <div class="skill"><i class="fab fa-github"></i> GitHub</div>
+      <div class="skill"><i class="fas fa-code-branch"></i> VS Code</div>
+      <div class="skill"><i class="fas fa-globe"></i> Web Dev</div>
+      <div class="skill"><i class="fas fa-paint-brush"></i> UI/UX</div>
+      <div class="skill"><i class="fas fa-brain"></i> DSA</div>
+      <div class="skill"><i class="fas fa-camera"></i> Computer Vision</div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <h2><span class="gradient-text">My Services</span></h2>
+    <p class="service-intro">Comprehensive web development services focused on clarity, speed, mobile responsiveness, and creativity</p>
+    <div class="service-card-container">
+      <!-- Responsive Web Design -->
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-desktop"></i></div>
+        <h3>Responsive Web Design</h3>
+        <p>Creating beautiful, mobile-first websites...</p>
+        <ul>
+          <li>Mobile-First Approach</li>
+          <li>Cross-Browser Compatibility</li>
+          <li>Performance Optimization</li>
+          <li>SEO Friendly</li>
+        </ul>
+      </div>
+      <!-- UI/UX -->
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-palette"></i></div>
+        <h3>UI/UX Design</h3>
+        <p>Designing intuitive and engaging user interfaces...</p>
+        <ul>
+          <li>User Research</li>
+          <li>Wireframing & Prototyping</li>
+          <li>Visual Design</li>
+          <li>Usability Testing</li>
+        </ul>
+      </div>
+      <!-- Web Apps -->
+      <div class="service-card">
+        <div class="service-icon"><i class="fas fa-code"></i></div>
+        <h3>Custom Web Applications</h3>
+        <p>Building full-stack web applications...</p>
+        <ul>
+          <li>React Development</li>
+          <li>API Integration</li>
+          <li>Database Design</li>
+          <li>Real-time Features</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="portfolio-section">
+    <h2 class="portfolio-title">Featured <span>Projects</span></h2>
+    <p class="portfolio-subtitle">Showcasing innovative solutions with modern technologies...</p>
+    <div class="project-grid">
+      <div class="project-card gradient-orange">
+        <div class="badge">Web Development</div>
+        <h3>COER Quiz</h3>
+        <p>A real-time quiz web app built for Hackathon 5.0...</p>
+        <ul class="features">
+          <li><i class="fas fa-check-circle"></i> Real-time Interface</li>
+          <li><i class="fas fa-check-circle"></i> Interactive Design</li>
+          <li><i class="fas fa-check-circle"></i> Responsive Layout</li>
+        </ul>
+        <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        <div class="project-links">
+          <a href="https://github.com/Bytejhaji" target="_blank" class="code-btn"><i class="fab fa-github"></i> Code</a>
+          <a href="https://github.com/Bytejhaji" class="live-btn"><i class="fas fa-external-link-alt"></i> View Project</a>
+        </div>
+      </div>
+      <div class="project-card gradient-green">
+        <div class="badge">Sustainability Tech</div>
+        <h3>Carbon Footprint Monitoring App</h3>
+        <p>Sustainability tracker app created for Hack the Hill @ Youthopia 2024...</p>
+        <ul class="features">
+          <li><i class="fas fa-check-circle"></i> Environmental Impact</li>
+          <li><i class="fas fa-check-circle"></i> Real-time Monitoring</li>
+          <li><i class="fas fa-check-circle"></i> User Analytics</li>
+        </ul>
+        <div class="tags"><span>JavaScript</span><span>React</span><span>Node.js</span></div>
+        <div class="project-links">
+          <a href="https://github.com/Bytejhaji" target="_blank" class="code-btn"><i class="fab fa-github"></i> Code</a>
+          <a href="https://github.com/Bytejhaji" class="live-btn"><i class="fas fa-external-link-alt"></i> View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact-section">
+    <h2 class="contact-title">Get in Touch</h2>
+    <div class="contact-container">
+      <!-- Info -->
+      <div class="contact-card">
+        <h3>Contact Information</h3>
+        <p>📧 <strong>Email:</strong><br><a href="mailto:shashwatshandil@gmail.com">shashwatshandil@gmail.com</a></p>
+        <p>🔗 <strong>LinkedIn:</strong><br><a href="https://linkedin.com/in/0jhaji" target="_blank">linkedin.com/in/0jhaji</a></p>
+        <p>💻 <strong>GitHub:</strong><br><a href="https://github.com/Bytejhaji" target="_blank">github.com/Bytejhaji</a></p>
+        <p>📞 <strong>Phone:</strong><br><a href="tel:+917909036602">+91 7909036602</a></p>
+        <p>📍 <strong>Location:</strong><br>India</p>
+      </div>
+      <!-- Form -->
+      <form id="contact-form" class="contact-form">
+        <input type="text" name="from_name" placeholder="Your Name" required>
+        <input type="email" name="from_email" placeholder="Your Email" required>
+        <input type="text" name="subject" placeholder="Subject">
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <script>
+    // Initialize EmailJS once
+    (function () {
+      emailjs.init("6etEVgs4T4WZTY9-1"); // Replace with your actual public key
+    })();
+
+    // Handle contact form submission
+    document.getElementById("contact-form").addEventListener("submit", function (event) {
+      event.preventDefault();
+      emailjs.sendForm('service_qe936p8', 'template_czgu728', this)
+        .then(() => alert("Message sent successfully! ✅"))
+        .catch(error => {
+          alert("Failed to send message. ❌");
+          console.error(error);
+        });
+      this.reset();
+    });
+  </script>
+
+  <script src="js/script.js"></script>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <h2 class="footer-name"><span>Shashwat</span> Shandil</h2>
+      <p class="footer-desc">"Those who bathe in water may change their clothes… But those who bathe in sweat will one day change history."</p>
+      <ul class="footer-links">
+        <li><a href="https://github.com/Bytejhaji" target="_blank">GitHub</a></li>
+        <li><a href="https://linkedin.com/in/0jhaji" target="_blank">LinkedIn</a></li>
+      </ul>
+      <p class="footer-bottom">© 2025 <span>Shashwat Shandil</span>. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
